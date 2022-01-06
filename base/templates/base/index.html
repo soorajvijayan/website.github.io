@@ -1,0 +1,214 @@
+
+ {% load static %}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sooraj Vijayan t k</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+   </head>
+<body class="main bg" >
+   <!--HEADING SCTION-->
+
+   <header style="position: fixed ;width: 100%; z-index: 1;" class="head">
+<div class="row">
+    <div class="col-md-6 p-3 pl-3">
+        <h2 style="text-align: center ;">SOORAJ VIJAYAN T K</h2>
+        <h5 style="text-align: center;">JUNIOR PYTHON DEVELOPER</h5>
+        
+    </div>
+    <!--Navbar-->
+    
+    <div class="col-md-6 ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-lightgrey  ">
+           
+            <div style="float: right;" class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a  class="nav-link" href="#about-section">About <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a  class="nav-link" href="#contact-section">Contact me</a>
+                </li>
+                
+              </ul>
+                
+
+            </div>
+          </nav>
+    </div>
+</div>
+
+</header>
+    
+    
+    
+    <!--Main body section-->
+    
+    <br>
+    <div " class="container" >
+        <div class="row">
+            <div style="padding-top: 7em; " class="col-md-3">
+                <div style="background-color: lavender;" class="card card-body border-primary" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/pic.jpg' %}" alt="100X100"  class="rounded-circle"  >
+                    <hr>
+                    <h4>Hi I'm Sooraj</h4>
+                    <p>Passionate about Python Programing</p>
+                    <h6>E-mail-soorajtk3@gmail.com</h6>
+                <h6>Mobile-9567107681</h6>
+                </div>
+                
+                
+            </div>
+                <div style="padding-top: 10em;" class="col-md-9" id="about-section">
+                    <div  style="background-color: lavender;" class="card card-body border-primary career">
+                        <h4>CAREER OBJECTIVE</h4>
+                        <hr>
+                        <p>To be able to work in organization as a Python Django Developer where I can fully utilize my skills in HTML, JavaScript, CSS, Python, and Django.</p>
+                        
+                        <p>
+                            To excel in the highly competitive Environment and attain a high-profile Status in the technical field by joining an Organization of recruit which offers conducive and Synergistic environment for mutual growth and development</p>
+                          
+
+                    </div>
+                </div>
+        
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 " >
+                <div style="height: 18em;background-color: lavender" class="card card-body style="height: 20em; ">
+                    <h4>SKILLS</h4><hr>
+                    <ul>
+                        <li>Python</li>
+                        <li>Html5,CSS3,Javascript</li>
+                        <li>django framework</li>
+                        <li>Mysql</li>
+                        <li>Basic knowledge of Git and Github</li>
+                        
+                    </ul>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div style="height: 18em;background-color: lavender" class="card card-body ">
+                        <h4>PROJECTS</h4>
+                        <hr>
+                        <ul>
+                            <li>Portfolio Website</li>
+                            <p>Created my own portfolio website using  django framework</p>
+
+                            <p>Technologies used : Python,django,html,css,bootstrap</p>
+
+                            <li>Calculator GUI Application using Python Tkinter library</li>
+                        </ul>
+                    </div>
+                </div>
+        
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div style="height: 18em;background-color: lavender;" class="card card-body">
+                    <h4>CERTIFICATIONS</h4><hr>
+                    
+                    <p>
+                        <ul>
+                            <li>Certification for Python programming from Udemy</li>
+
+                            <li>Certification for Python Django course from Udemy</li>
+                        </ul>
+                    </p>
+        
+                </div>
+            </div>
+                <div  class="col-md-6">
+                    <div style="height: 18em;background-color: lavender" class="card card-body ">
+                        <h4 ">WORK EXPERIENCE</h4> <hr>
+                        <h6>Operation Associate at Aamshe Technology LLP-November 2018-January 2020</h6>
+                            Start-up Company located at Kannur</h6>
+                            <ul>
+                                <li>Supervising daily operations of the company</li>
+                                <li>Create and maintain spreadsheet of client’s Work details</li>
+                                <li>Participated actively in team tasks and performed efficiently as a team</li>
+                                    
+                            </ul>
+                        
+                        
+                            
+                    </div>
+                </div>
+        
+        </div>
+        <br>
+        <!--Contact form-->
+        
+        <section id="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-5">
+                            <label for="inputEmail4">Name</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                          </div>
+                          <br>
+                          <div class="form-group col-md-5">
+                            <label for="inputPassword4">Phone Number</label>
+                            <input type="tel" class="form-control" id="inputPassword4" placeholder="Phone Number">
+                          </div>
+                          <br>
+                        </div>
+                        <div class="form-group ">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                        </div>
+                        <br>
+                        
+                        <div class="form-row">
+                          <div class="form-group ">
+                            <label for="inputCity">Place</label>
+                            <input placeholder="Place" type="text" class="form-control" id="inputCity">
+                          </div>
+                         <br>
+                          <div class="form-group ">
+                            <label >Message</label>
+                           
+                            <textarea placeholder="Type your message here..." class="form-control" id="" cols="28" rows="10"></textarea>
+                            
+                          </div>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <!-- Footer -->
+      <footer style="width: 100%;height: 100%;" class="head">
+        <div class="container">
+            <div class="row">
+                <div style="padding: 4px;" class="col-md-12 text-align:center ">
+                    <p style="text-align: center;">©Copyrights</p>
+                </div>
+            </div>
+        </div>
+      </footer>
+        <!-- Footer -->
+    </div>
+    
+</body>
+</html>

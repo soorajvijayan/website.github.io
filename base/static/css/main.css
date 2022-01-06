@@ -1,0 +1,26 @@
+.main{
+    background-color: #97caef
+   
+}
+
+#profile-wrapper{
+    text-align: center;
+}
+#profile-pic{
+    width: 120px;
+    height: 150px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    color: crimson;
+    background-color: lavender;
+    
+}
+.career{
+    padding-top: 12px;
+}
+
